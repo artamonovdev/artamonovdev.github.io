@@ -1,0 +1,291 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    padding-top: 0;
+    font-family: "Karla", sans-serif;
+    position: relative;
+    border: none !important;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block
+}
+
+a {
+    background-color: transparent;
+    color: #4169E1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4169E1;
+}
+
+a:active {
+    color: #D25F66;
+}
+
+a:visited {
+    color: black;
+}
+
+a.accordion {
+    background-color: #FFF;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: inherit;
+    transition: 0.4s;
+}
+
+a.accordion:after {
+    content: '\002B';
+    color: #000;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+a.accordion.active:after {
+    content: "\2212";
+    color: #D25F66;
+    font-size: 1.2em;
+}
+
+h3 a:visited {
+    color: black;
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.text-center {
+    padding-top: 20px;
+}
+
+h1 {
+    color: #1a1a1a;
+    font-family: "Merriweather", serif;
+    font-size: 84px;
+    font-weight: bold;
+    padding-top: 13%;
+    padding-left: 10%;
+}
+
+h2 {
+    color: #1a1a1a;
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    max-width: 820px;
+    text-align: left;
+    line-height: 1.5em;
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+p {
+    /*same as h2 but using p for project template */
+    color: #1a1a1a;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    max-width: 700px;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5em;
+}
+
+#mysocial {
+    padding-top: 20px;
+    padding-left: 0;
+
+}
+
+#mysocial li {
+    display: inline-block;
+}
+
+.social-icon li a {
+    text-decoration: none;
+}
+
+.social-icon i {
+    padding: 10px;
+    color: black;
+    font-size: 1.6em;
+}
+
+.social-icon i:hover {
+    transform: scale(1.4);
+    color: #4169E1;
+}
+
+.resume {
+    padding: 20px 20px 0 20px;
+    font-size: 16px;
+    text-align: right;
+}
+
+.resume .resume-link {
+    color: #000;
+    text-decoration: underline;
+}
+
+#artamonovdev {
+    text-align: left;
+    padding: 0 10px 0 0;
+    margin-top: 7%;
+}
+
+#artamonovdev .name {
+    color: #000;
+    text-decoration: underline;
+}
+
+.wrap-mysocial {
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+@media (max-width: 1199px) {
+    #artamonovdev {
+        margin-top: 9%;
+    }
+}
+
+@media (max-width: 899px) {
+    #artamonovdev {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 72px;
+        padding-top: 10%;
+        padding-left: 8%;
+    }
+}
+
+@media (max-width: 641px) {
+    #artamonovdev {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 72px;
+        padding-top: 5%;
+        padding-left: 8%;
+    }
+
+    .resume {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    #artamonovdev {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 50px;
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1014px) and (max-width: 1034px) and (min-height: 590px) and (max-height: 610px) {
+    h1 {
+        padding-top: 1%;
+    }
+}
+
+@media (min-width: 1014px) and (max-width: 1034px) and (min-height: 667px) and (max-height: 687px) {
+    h1 {
+        padding-top: 5%;
+    }
+}
+
+@media (min-width: 1270px) and (max-width: 1290px) and (min-height: 1014px) and (max-height: 1034px) {
+    h1 {
+        padding-top: 20%;
+    }
+}
+
+@media (min-width: 1356px) and (max-width: 1376px) and (min-height: 758px) and (max-height: 778px) {
+    h1 {
+        padding-top: 9%;
+    }
+}
+
+@media (min-width: 1910px) and (max-width: 1930px) and (min-height: 1010px) and (max-height: 1040px) {
+    h1 {
+        padding-top: 9%;
+    }
+}
+
+@media (min-width: 1270px) {
+    h2 {
+        max-width: 745px;
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/artamonovdev
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://artamonovdev.github.io
+  * I am artamonovdev (https://keybase.io/artamonovdev) on keybase.
+  * I have a public key ASCGKVhDMmIDOUpizzzsdnFnTScFj8eWDN9ROlofHNQM6wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012086295843326203394a62cf3cec7671674d27058fc7960cdf513a5a1f1cd40ceb0a",
+      "host": "keybase.io",
+      "kid": "012086295843326203394a62cf3cec7671674d27058fc7960cdf513a5a1f1cd40ceb0a",
+      "uid": "f76f139bed86fa7e0d303c9e55194119",
+      "username": "artamonovdev"
+    },
+    "merkle_root": {
+      "ctime": 1530990483,
+      "hash": "c6f4e5cef7f44c5b0699d7239777b5df221aaa01ebd8ac4f53c60e78d1a93a20fa4ef4b6c5ed1a058e1efc0fe04855ddcbd089e6067c0fffc4002095bb7a8d2b",
+      "hash_meta": "323f696d6eef2af7092e1846fac3cc8cee883f7f1fa636ed6dc842cfe214f031",
+      "seqno": 3214142
+    },
+    "service": {
+      "entropy": "5u1gbB2lPVmUk3Zl5GJjQ2PB",
+      "hostname": "artamonovdev.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1530990497,
+  "expire_in": 504576000,
+  "prev": "633583ce644e3b4993b94536d214fc023e435bb0c6f127faa61b83b4e01aad70",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghilYQzJiAzlKYs887HZxZ00nBY/HlgzfUTpaHxzUDOsKp3BheWxvYWTESpcCDcQgYzWDzmROO0mTuUU20hT8Aj5DW7DG8Sf6phuDtOAarXDEIH82WnuoI2t2u1wXDVTWJ6prhmDHzfIg43rLGNVyXFmJAgHCo3NpZ8RAEEBLSzOqhwUTxpcHVFiA5rmeClMCvgqd/8hYHvsMKBmz4F4DkWo1S2lggevt5LqUaCYnSEngYiyiylCzXJO1BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOOJqQXA+b7ZiMzbio8oDwa8yvjFrAcBkiKkMZatTKA1o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/artamonovdev
+
+==================================================================
